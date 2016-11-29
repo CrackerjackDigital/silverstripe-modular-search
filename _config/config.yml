@@ -1,0 +1,6 @@
+---
+Name: modular-search-config
+---
+Injector:
+  SearchService:
+    class: Modular\Search\Service
