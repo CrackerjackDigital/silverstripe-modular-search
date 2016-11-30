@@ -1,7 +1,7 @@
 {
-	"name": "crackerjackdigital/silverstripe-modular-workflows",
+	"name": "crackerjackdigital/silverstripe-modular-search",
 	"type": "silverstripe-module",
-	"description": "Workflows and versioning of models for modular",
+	"description": "Search extensions for modular",
 	"homepage": "http://github.com/crackerjackdigital",
 	"license": "BSD-3-Clause",
 	"keywords": [
@@ -24,7 +24,7 @@
 		"crackerjackdigital/silverstripe-modular": "*"
 	},
 	"extra": {
-		"installer-name": "modular-workflows"
+		"installer-name": "modular-search"
 	},
 	"minimum-stability": "dev"
 }
