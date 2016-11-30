@@ -4,3 +4,9 @@ Name: modular-search-config
 Injector:
   SearchService:
     class: Modular\Search\Service
+File:
+  extensions:
+    - Modular\Extensions\Model\SearchFile
+SiteTree:
+  extensions:
+    - Modular\Extensions\Model\SearchSiteTree
