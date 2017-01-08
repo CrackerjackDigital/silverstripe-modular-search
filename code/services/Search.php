@@ -1,7 +1,7 @@
 <?php
 namespace Modular\Services;
 
-use Modular\owned;
+use Modular\Traits\owned;
 
 class Search extends \Modular\Service {
 	use owned;
