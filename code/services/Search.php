@@ -45,4 +45,19 @@ class Search extends \Modular\Service {
 	public function Filters() {
 		return \Injector::inst()->get(static::FiltersClassName);
 	}
+
+	/**
+	 * Return a configured instance of the service via config.service_name, self.ServiceName or the called class name.
+	 *
+	 * @param null   $params
+	 *
+	 * @param string $resultMessage
+	 * @param mixed  $options
+	 * @param string $env
+	 *
+	 * @return \Modular\Interfaces\Service
+	 */
+	public function execute( $params = null, &$resultMessage = '' ) {
+		// TODO: Implement execute() method.
+	}
 }
