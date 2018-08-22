@@ -25,5 +25,10 @@
 	"extra": {
 		"installer-name": "modular-search"
 	},
+	"autoload": {
+		"files": [
+			"autoloader.php"
+		]
+	},
 	"minimum-stability": "dev"
 }
